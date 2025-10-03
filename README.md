@@ -1,9 +1,9 @@
 <h1 align="center">✨ Flashy React Azure App ✨</h1>
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/github/explore/main/topics/react/react.png" width="48" alt="React Logo"/>
-  <img src="https://raw.githubusercontent.com/github/explore/main/topics/tailwind/tailwind.png" width="48" alt="Tailwind Logo"/>
-  <img src="https://learn.microsoft.com/en-us/azure/static-web-apps/media/index/staticwebapps.svg" width="48" alt="Azure Static Web Apps Logo"/>
+  <img src="https://raw.githubusercontent.com/github/explore/main/topics/react/react.png" width="60" alt="React Logo"/>
+  <img src="https://raw.githubusercontent.com/github/explore/main/topics/tailwind/tailwind.png" width="60" alt="Tailwind Logo"/>
+  <img src="https://learn.microsoft.com/en-us/azure/static-web-apps/media/index/staticwebapps.svg" width="60" alt="Azure Static Web Apps Logo"/>
 </p>
 
 <p align="center">
@@ -50,7 +50,9 @@ flashy-app/
 ├── README.md
 └── .github/workflows/azure-static-web-apps-calm-water-061bd4403.yml
 
+
 ⚙️ Prerequisites
+
 Before you begin, ensure you have the following installed:
 
 Node.js (LTS version recommended)
@@ -59,15 +61,21 @@ npm or yarn
 
 A GitHub account
 
-An Azure account with Static Web Apps enabled
+An Azure account
+ with Static Web Apps enabled
 
 🧱 Local Development
+
 To run the app locally:
+
 npm install
 npm start
+
+
 Then visit 👉 http://localhost:3000
 
 🌐 Deployment (CI/CD)
+
 This project uses GitHub Actions to automate deployments to Azure.
 
 Every time you push to the main branch:
@@ -76,13 +84,14 @@ Every time you push to the main branch:
 
 🏗️ Builds the app (npm run build)
 
-☁️ Deploys to Azure Static Web Apps
+☁️ Deploys the build output to Azure Static Web Apps
 
 The workflow file is located at:
 .github/workflows/azure-static-web-apps-calm-water-061bd4403.yml
 
 🚦 Workflow Triggers
-✅ Push to main → Auto-deploy to Azure
+
+✅ Push to main → Automatic deployment to Azure
 
 ✅ Pull Requests to main → Creates temporary preview environments for testing
 
@@ -94,18 +103,21 @@ npm run build
 npm test
 
 🔗 Links
-📘 Azure Static Web Apps Docs
 
-⚡ GitHub Actions Docs
+📘 Azure Static Web Apps Documentation
 
-💅 Tailwind CSS Docs
+⚡ GitHub Actions Documentation
 
-⚛️ React Docs
+💅 Tailwind CSS Documentation
+
+⚛️ React Documentation
 
 ✍️ Author
+
 👩🏽 Oluwayemisi Okunrounmu
 📅 Last Updated: October 2025
 
 Built with 💙 using React, Tailwind, and Azure 🚀
 React	Tailwind	Azure
-<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" width="40" alt="React Logo"/>	<img src="https://avatars.githubusercontent.com/u/67109815?s=200&v=4" width="40" alt="Tailwind Logo"/>	<img src="https://upload.wikimedia.org/wikipedia/commons/f/fa/Microsoft_Azure.svg" width="40" alt="Azure Logo"/>
+<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" width="40" />	<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/tailwindcss/tailwindcss-plain.svg" width="40" />	<img src="https://upload.wikimedia.org/wikipedia/commons/f/fa/Microsoft_Azure.svg" width="40" />
+<p align="center">Built with 💙 using **React**, **Tailwind**, and **Azure** 🚀</p> ```
