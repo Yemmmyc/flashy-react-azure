@@ -109,10 +109,11 @@ npm test
 👩🏽 Oluwayemisi Okunrounmu
 📅 Last Updated: October 2025
 
----
+## ✍️ Author
+
+👩🏽 **Oluwayemisi Okunrounmu**  
+📅 Last Updated: **October 2025**
 
 <div align="center">
-
-Built with 💙 using **React**, **Tailwind**, and **Azure** 🚀
-
+  Built with 💙 using <strong>React</strong>, <strong>Tailwind</strong>, and <strong>Azure</strong> 🚀
 </div>
