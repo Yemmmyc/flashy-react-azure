@@ -108,5 +108,11 @@ npm test
 👩🏽 Oluwayemisi Okunrounmu
 📅 Last Updated: October 2025
 
-<p align="center">Built with 💙 using React, Tailwind, and Azure 🚀</p> ```
+## ✍️ Author
+
+👩🏽 **Oluwayemisi Okunrounmu**  
+📅 Last Updated: **October 2025**
+
+<p align="center">Built with 💙 using React, Tailwind, and Azure 🚀</p>
+
 
