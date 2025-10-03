@@ -80,12 +80,10 @@ Every time you push to the main branch:
 ☁️ Deploys to Azure Static Web Apps
 
 The workflow file is located at:
-
-
 .github/workflows/azure-static-web-apps-calm-water-061bd4403.yml
+
 🚦 Workflow Triggers
 ✅ Push to main → Auto-deploy to Azure
-
 ✅ Pull Requests to main → Creates temporary preview environments for testing
 
 🧪 Useful Commands
@@ -98,11 +96,8 @@ npm test
 
 🔗 Links
 📘 Azure Static Web Apps Docs
-
 ⚡ GitHub Actions Docs
-
 💅 Tailwind CSS Docs
-
 ⚛️ React Docs
 
 ✍️ Author
@@ -115,5 +110,7 @@ npm test
 📅 Last Updated: **October 2025**
 
 <div align="center">
+
   Built with 💙 using <strong>React</strong>, <strong>Tailwind</strong>, and <strong>Azure</strong> 🚀
+
 </div>
