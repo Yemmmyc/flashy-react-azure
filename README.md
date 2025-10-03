@@ -1,70 +1,72 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# 🚀 My React Static Web App on Azure
 
-## Available Scripts
+This is a simple React application deployed on **Azure Static Web Apps** using **GitHub Actions** for continuous deployment.
 
-In the project directory, you can run:
+🌐 **Live URL:** https://calm-water-061bd4403.z01.azurefd.net
 
-### `npm start`
+## 📁 Project Structure
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+myapp/
+├── public/
+├── src/
+├── package.json
+├── README.md
+└── azure-static-web-apps-calm-water-061bd4403.yml
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## ⚙️ Prerequisites
 
-### `npm test`
+- Node.js (LTS version recommended)
+- npm or yarn
+- A GitHub account
+- An Azure account with Static Web Apps enabled
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 🧱 Local Development
 
-### `npm run build`
+To run the app locally:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+npm install
+npm start
+The app will be available at http://localhost:3001.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+🌐 Deployment (CI/CD)
+This project uses GitHub Actions for automatic deployments to Azure.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Each time you push to the main branch, the workflow:
 
-### `npm run eject`
+Installs dependencies
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Builds the app using npm run build
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Deploys the build output to Azure Static Web Apps
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+The workflow file was generated automatically when the app was deployed from the Azure Portal:
+.github/workflows/azure-static-web-apps-calm-water-061bd4403.yml
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+🚦 GitHub Workflow Trigger
+✅ On push to main → automatic deployment to Azure
 
-## Learn More
+✅ On pull requests to main → preview environments are created
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+🧪 Useful Commands
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+# Build the app for production
+npm run build
 
-### Code Splitting
+# Run tests
+npm test
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+📝 Notes
+Ensure the app_location and output_location in the YAML workflow match your project structure.
 
-### Analyzing the Bundle Size
+The default React build output is in build/.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+You can update the deployment settings in the Azure Portal if needed.
 
-### Making a Progressive Web App
+🔗 Links
+Azure Static Web Apps Documentation
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+GitHub Actions Documentation
 
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+✅ Author: Oluwayemisi Okunrounmu
+📅 Last Updated: October 2025
