@@ -108,8 +108,13 @@ npm test
 👩🏽 **Oluwayemisi Okunrounmu**  
 📅 Last Updated: **October 2025**
 
+---
+
 ### Built with 💙 using **React**, **Tailwind**, and **Azure** 🚀
 
-![React Logo](https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg) 
-![Tailwind Logo](https://raw.githubusercontent.com/devicons/devicon/master/icons/tailwindcss/tailwindcss-plain.svg) 
-![Azure Logo](https://upload.wikimedia.org/wikipedia/commons/f/fa/Microsoft_Azure.svg)
+| React | Tailwind | Azure |
+|:-----:|:--------:|:-----:|
+| ![React Logo](https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg) | ![Tailwind Logo](https://avatars.githubusercontent.com/u/67109815?s=200&v=4) | ![Azure Logo](https://upload.wikimedia.org/wikipedia/commons/f/fa/Microsoft_Azure.svg) |
+
+---
+
