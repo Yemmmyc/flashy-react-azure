@@ -18,32 +18,20 @@ jobs:
       contents: read
       id-token: write
     steps:
-      # 1. Checkout repository
       - name: Checkout repository
         uses: actions/checkout@v3
-        with:
-          submodules: true
-          lfs: false
 
-      # 2. Set up Node.js
       - name: Setup Node.js
         uses: actions/setup-node@v3
         with:
           node-version: '20'
 
-      # 3. Ensure react-scripts is installed globally (optional)
-      - name: Ensure react-scripts
-        run: npm install react-scripts@latest --save-dev
-
-      # 4. Install dependencies
       - name: Install dependencies
-        run: npm install --legacy-peer-deps
+        run: npm ci
 
-      # 5. Build app
       - name: Build app
         run: npm run build
 
-      # 6. Deploy to Azure Static Web Apps
       - name: Deploy to Azure Static Web App
         uses: Azure/static-web-apps-deploy@v1
         with:
@@ -51,7 +39,7 @@ jobs:
           action: "upload"
           app_location: "/"            
           api_location: ""             
-          output_location: "build"     
+          output_location: "build"
 
   close_pull_request:
     if: github.event_name == 'pull_request' && github.event.action == 'closed'
@@ -62,4 +50,5 @@ jobs:
         uses: Azure/static-web-apps-deploy@v1
         with:
           action: "close"
+
 
