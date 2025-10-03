@@ -42,6 +42,7 @@
 
 ## 📁 Project Structure
 
+```plaintext
 flashy-app/
 ├── public/
 ├── src/
@@ -49,27 +50,20 @@ flashy-app/
 ├── README.md
 └── .github/workflows/azure-static-web-apps-calm-water-061bd4403.yml
 
-yaml
-Copy code
-
----
-
-## ⚙️ Prerequisites
-
+⚙️ Prerequisites
 Before you begin, ensure you have the following installed:
 
-- [Node.js](https://nodejs.org/) (LTS version recommended)
-- npm or yarn
-- A [GitHub account](https://github.com)
-- An [Azure account](https://portal.azure.com) with Static Web Apps enabled
+Node.js (LTS version recommended)
 
----
+npm or yarn
 
-## 🧱 Local Development
+A GitHub account
 
+An Azure account with Static Web Apps enabled
+
+🧱 Local Development
 To run the app locally:
 
-```bash
 npm install
 npm start
 Then visit 👉 http://localhost:3000
@@ -87,16 +81,15 @@ Every time you push to the main branch:
 
 The workflow file is located at:
 
-swift
-Copy code
+
 .github/workflows/azure-static-web-apps-calm-water-061bd4403.yml
 🚦 Workflow Triggers
 ✅ Push to main → Auto-deploy to Azure
+
 ✅ Pull Requests to main → Creates temporary preview environments for testing
 
 🧪 Useful Commands
-bash
-Copy code
+
 # Build the app for production
 npm run build
 
