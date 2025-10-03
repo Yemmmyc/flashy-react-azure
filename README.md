@@ -1,18 +1,29 @@
 # ✨ Flashy React Azure App ✨
 
 <p align="center">
-  ![React Logo](https://raw.githubusercontent.com/github/explore/main/topics/react/react.png)
-  ![Tailwind Logo](https://raw.githubusercontent.com/github/explore/main/topics/tailwind/tailwind.png)
-  ![Azure Logo](https://learn.microsoft.com/en-us/azure/static-web-apps/media/index/staticwebapps.svg)
+  <img src="https://raw.githubusercontent.com/github/explore/main/topics/react/react.png" width="60" alt="React Logo"/>
+  <img src="https://raw.githubusercontent.com/github/explore/main/topics/tailwind/tailwind.png" width="60" alt="Tailwind Logo"/>
+  <img src="https://learn.microsoft.com/en-us/azure/static-web-apps/media/index/staticwebapps.svg" width="60" alt="Azure Static Web Apps Logo"/>
 </p>
 
-🚀 A **flashy React web application** deployed on **Azure Static Web Apps** with a fully automated **GitHub Actions CI/CD pipeline**.
+<p align="center">
+  <a href="https://github.com/Yemmmyc/flashy-react-azure/actions/workflows/azure-static-web-apps-calm-water-061bd4403.yml">
+    <img src="https://github.com/Yemmmyc/flashy-react-azure/actions/workflows/azure-static-web-apps-calm-water-061bd4403.yml/badge.svg" alt="Azure Static Web Apps CI/CD" />
+  </a>
+  <img src="https://img.shields.io/badge/React-18-blue?logo=react" alt="React Badge" />
+  <img src="https://img.shields.io/badge/TailwindCSS-3.4-blueviolet?logo=tailwind-css" alt="TailwindCSS Badge" />
+  <img src="https://img.shields.io/badge/Deployed%20on-Azure-blue?logo=microsoftazure" alt="Azure Badge" />
+</p>
+
+<p align="center">
+  🚀 A <strong>flashy React web application</strong> deployed on <strong>Azure Static Web Apps</strong> with a fully automated <strong>GitHub Actions CI/CD pipeline</strong>.
+</p>
 
 ---
 
 ## 🌐 Live Demo
 
-👉 [View Deployed Site](https://calm-water-061bd4403.z01.azurefd.net)
+👉 **[View Deployed Site](https://calm-water-061bd4403.z01.azurefd.net)**
 
 ---
 
@@ -37,62 +48,88 @@ flashy-app/
 ├── src/
 ├── package.json
 ├── README.md
-└── .github/workflows/azure-static-web-apps-calm-water-061bd4403.yml```
+└── .github/workflows/azure-static-web-apps-calm-water-061bd4403.yml
+```
 
-⚙️ Prerequisites
-Node.js (LTS version recommended)
+---
 
-npm or yarn
+## ⚙️ Prerequisites
 
-GitHub account
+Before you begin, ensure you have the following installed:
 
-Azure account with Static Web Apps enabled
+- Node.js (LTS version recommended)
+- npm or yarn
+- A GitHub account
+- An Azure account with Static Web Apps enabled
 
-🧱 Local Development
+---
+
+## 🧱 Local Development
+
+To run the app locally:
+
+```bash
 npm install
 npm start
-Visit: http://localhost:3000
+```
 
-🌐 Deployment (CI/CD)
-Every push to main triggers:
+Then visit 👉 http://localhost:3000
 
-Installs dependencies
+---
 
-Builds the app (npm run build)
+## 🌐 Deployment (CI/CD)
 
-Deploys to Azure Static Web Apps
+This project uses GitHub Actions to automate deployments to Azure.
 
-Workflow file:
-.github/workflows/azure-static-web-apps-calm-water-061bd4403.yml
+Every time you push to the `main` branch:
 
-🚦 Workflow Triggers
-Push to main → Auto-deploy to Azure
+- 🧰 Installs dependencies
+- 🏗️ Builds the app (npm run build)
+- ☁️ Deploys the build output to Azure Static Web Apps
 
-Pull Requests to main → Temporary preview environments
+The workflow file is located at:
 
-🧪 Useful Commands
-# Build for production
+`.github/workflows/azure-static-web-apps-calm-water-061bd4403.yml`
+
+---
+
+## 🚦 Workflow Triggers
+
+✅ Push to main → Automatic deployment to Azure  
+✅ Pull Requests to main → Creates temporary preview environments for testing
+
+---
+
+## 🧪 Useful Commands
+
+```bash
+# Build the app for production
 npm run build
 
 # Run tests
 npm test
-🔗 Links
-Azure Static Web Apps Docs
+```
 
-GitHub Actions Docs
+---
 
-Tailwind CSS Docs
+## 🔗 Links
 
-React Docs
+- 📘 [Azure Static Web Apps Documentation](https://learn.microsoft.com/en-us/azure/static-web-apps/)
+- ⚡ [GitHub Actions Documentation](https://docs.github.com/en/actions)
+- 💅 [Tailwind CSS Documentation](https://tailwindcss.com/docs)
+- ⚛️ [React Documentation](https://react.dev/)
 
-✍️ Author
-Oluwayemisi Okunrounmu
-Last Updated: October 2025
+---
 
-Built with 💙 using React, Tailwind, and Azure 🚀
-React	Tailwind	Azure
-![React Logo](https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg =40x40)	![Tailwind Logo](https://raw.githubusercontent.com/devicons/devicon/master/icons/tailwindcss/tailwindcss-plain.svg =40x40)	![Azure Logo](https://upload.wikimedia.org/wikipedia/commons/f/fa/Microsoft_Azure.svg =40x40)
+## ✍️ Author
 
+👩🏽 **Oluwayemisi Okunrounmu**  
+📅 Last Updated: **October 2025**
 
+---
 
+### Built with 💙 using **React**, **Tailwind**, and **Azure** 🚀
 
+| React | Tailwind | Azure |
+|:-----:|:--------:|:-----:|
+| ![React Logo](https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg =40x40) | ![Tailwind Logo](https://raw.githubusercontent.com/devicons/devicon/master/icons/tailwindcss/tailwindcss-p
