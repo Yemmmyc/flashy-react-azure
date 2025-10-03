@@ -95,6 +95,7 @@ npm run build
 
 # Run tests
 npm test
+
 🔗 Links
 📘 Azure Static Web Apps Docs
 
@@ -108,5 +109,10 @@ npm test
 👩🏽 Oluwayemisi Okunrounmu
 📅 Last Updated: October 2025
 
-<p align="center">Built with 💙 using React, Tailwind, and Azure 🚀</p> ```
+---
 
+<div align="center">
+
+Built with 💙 using **React**, **Tailwind**, and **Azure** 🚀
+
+</div>
