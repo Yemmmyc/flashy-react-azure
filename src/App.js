@@ -1,25 +1,18 @@
-import logo from './logo.svg';
-import './App.css';
+import './index.css';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <h1>Welcome to Flashy React App! 🚀</h1>
+      <div className="flex flex-wrap justify-center mt-10">
+        <div className="card">Card 1</div>
+        <div className="card">Card 2</div>
+        <div className="card">Card 3</div>
+      </div>
+      <button className="mt-10">Click Me!</button>
     </div>
   );
 }
 
 export default App;
+
