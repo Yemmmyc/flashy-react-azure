@@ -81,11 +81,11 @@ Then visit 👉 http://localhost:3000
 
 This project uses GitHub Actions to automate deployments to Azure.
 
-Every time you push to the `main` branch:
+Every time you push to the main branch:
 
-- 🧰 Installs dependencies
-- 🏗️ Builds the app (npm run build)
-- ☁️ Deploys the build output to Azure Static Web Apps
+- Installs dependencies
+- Builds the app (`npm run build`)
+- Deploys the build output to Azure Static Web Apps
 
 The workflow file is located at:
 
@@ -95,8 +95,8 @@ The workflow file is located at:
 
 ## 🚦 Workflow Triggers
 
-✅ Push to main → Automatic deployment to Azure  
-✅ Pull Requests to main → Creates temporary preview environments for testing
+- ✅ Push to main → Automatic deployment to Azure
+- ✅ Pull Requests to main → Creates temporary preview environments for testing
 
 ---
 
@@ -128,8 +128,9 @@ npm test
 
 ---
 
-### Built with 💙 using **React**, **Tailwind**, and **Azure** 🚀
+## Built with 💙 using React, Tailwind, and Azure 🚀
 
-| React | Tailwind | Azure |
-|:-----:|:--------:|:-----:|
-| ![React Logo](https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg =40x40) | ![Tailwind Logo](https://raw.githubusercontent.com/devicons/devicon/master/icons/tailwindcss/tailwindcss-p
+<p align="center">
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" width="40" alt="React Logo"/>
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/tailwindcss/tailwindcss-plain.svg" width="40" alt="Tailwind Logo"/>
+  <img src="https://upload.wikimedia.org/wikipedia/commons/
