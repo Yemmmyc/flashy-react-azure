@@ -128,9 +128,10 @@ npm test
 
 ---
 
-## Built with 💙 using React, Tailwind, and Azure 🚀
+### Built with 💙 using React, Tailwind, and Azure 🚀
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" width="40" alt="React Logo"/>
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/tailwindcss/tailwindcss-plain.svg" width="40" alt="Tailwind Logo"/>
-  <img src="https://upload.wikimedia.org/wikipedia/commons/
+  <img src="https://raw.githubusercontent.com/github/explore/main/topics/tailwind/tailwind.png" width="40" alt="Tailwind Logo"/>
+  <img src="https://raw.githubusercontent.com/github/explore/main/topics/azure/azure.png" width="40" alt="Azure Logo"/>
+</p>
