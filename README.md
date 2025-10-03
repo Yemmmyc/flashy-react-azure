@@ -1,9 +1,9 @@
 <h1 align="center">✨ Flashy React Azure App ✨</h1>
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/github/explore/main/topics/react/react.png" width="60" alt="React Logo"/>
-  <img src="https://raw.githubusercontent.com/github/explore/main/topics/tailwind/tailwind.png" width="60" alt="Tailwind Logo"/>
-  <img src="https://learn.microsoft.com/en-us/azure/static-web-apps/media/index/staticwebapps.svg" width="60" alt="Azure Static Web Apps Logo"/>
+  <img src="https://raw.githubusercontent.com/github/explore/main/topics/react/react.png" width="48" alt="React Logo"/>
+  <img src="https://raw.githubusercontent.com/github/explore/main/topics/tailwind/tailwind.png" width="48" alt="Tailwind Logo"/>
+  <img src="https://learn.microsoft.com/en-us/azure/static-web-apps/media/index/staticwebapps.svg" width="48" alt="Azure Static Web Apps Logo"/>
 </p>
 
 <p align="center">
@@ -63,7 +63,6 @@ An Azure account with Static Web Apps enabled
 
 🧱 Local Development
 To run the app locally:
-
 npm install
 npm start
 Then visit 👉 http://localhost:3000
@@ -84,10 +83,10 @@ The workflow file is located at:
 
 🚦 Workflow Triggers
 ✅ Push to main → Auto-deploy to Azure
+
 ✅ Pull Requests to main → Creates temporary preview environments for testing
 
 🧪 Useful Commands
-
 # Build the app for production
 npm run build
 
@@ -96,25 +95,17 @@ npm test
 
 🔗 Links
 📘 Azure Static Web Apps Docs
+
 ⚡ GitHub Actions Docs
+
 💅 Tailwind CSS Docs
+
 ⚛️ React Docs
 
 ✍️ Author
 👩🏽 Oluwayemisi Okunrounmu
 📅 Last Updated: October 2025
 
-## ✍️ Author
-👩🏽 **Oluwayemisi Okunrounmu**  
-📅 Last Updated: **October 2025**
-
----
-
-### Built with 💙 using **React**, **Tailwind**, and **Azure** 🚀
-
-| React | Tailwind | Azure |
-|:-----:|:--------:|:-----:|
-| ![React Logo](https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg) | ![Tailwind Logo](https://avatars.githubusercontent.com/u/67109815?s=200&v=4) | ![Azure Logo](https://upload.wikimedia.org/wikipedia/commons/f/fa/Microsoft_Azure.svg) |
-
----
-
+Built with 💙 using React, Tailwind, and Azure 🚀
+React	Tailwind	Azure
+<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" width="40" alt="React Logo"/>	<img src="https://avatars.githubusercontent.com/u/67109815?s=200&v=4" width="40" alt="Tailwind Logo"/>	<img src="https://upload.wikimedia.org/wikipedia/commons/f/fa/Microsoft_Azure.svg" width="40" alt="Azure Logo"/>
