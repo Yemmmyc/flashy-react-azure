@@ -108,20 +108,8 @@ npm test
 👩🏽 **Oluwayemisi Okunrounmu**  
 📅 Last Updated: **October 2025**
 
-<h3 align="center">
-  Built with 💙 using <strong>React</strong>, <strong>Tailwind</strong>, and <strong>Azure</strong> 🚀
-</h3>
+### Built with 💙 using **React**, **Tailwind**, and **Azure** 🚀
 
-<p align="center">
-  <a href="https://react.dev/" target="_blank">
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" alt="React Logo" width="60" height="60" />
-  </a>
-  &nbsp;&nbsp;
-  <a href="https://tailwindcss.com/" target="_blank">
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/tailwindcss/tailwindcss-plain.svg" alt="Tailwind Logo" width="60" height="60" />
-  </a>
-  &nbsp;&nbsp;
-  <a href="https://azure.microsoft.com/" target="_blank">
-    <img src="https://upload.wikimedia.org/wikipedia/commons/f/fa/Microsoft_Azure.svg" alt="Azure Logo" width="60" height="60" />
-  </a>
-</p>
+![React Logo](https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg) 
+![Tailwind Logo](https://raw.githubusercontent.com/devicons/devicon/master/icons/tailwindcss/tailwindcss-plain.svg) 
+![Azure Logo](https://upload.wikimedia.org/wikipedia/commons/f/fa/Microsoft_Azure.svg)
