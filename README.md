@@ -3,7 +3,7 @@
 <p align="center">
   <img src="https://raw.githubusercontent.com/github/explore/main/topics/react/react.png" width="60" alt="React Logo"/>
   <img src="https://raw.githubusercontent.com/github/explore/main/topics/tailwind/tailwind.png" width="60" alt="Tailwind Logo"/>
-  <img src="https://learn.microsoft.com/en-us/azure/static-web-apps/media/index/staticwebapps.svg" width="60" alt="Azure Static Web Apps Logo"/>
+  <img src="https://raw.githubusercontent.com/github/explore/main/topics/azure/azure.png" width="60" alt="Azure Logo"/>
 </p>
 
 <p align="center">
